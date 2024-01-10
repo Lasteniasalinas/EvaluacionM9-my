@@ -1,48 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
-    crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
-    crossorigin="anonymous"></script>
-
-
-</head>
-<body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- barra navegacion -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acceso Proyecto 1</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="http://www.gmail.com">salinaslastenia@gmail.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#acerca">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Acceso a mis Proyectos</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- fin barra-->
 
-    <h1 class="text-center">Portafolio</h1>
+    <header>
+    <h1 class="text-center">Mi Portafolio Digital</h1>
+    <h4 class="text-center">Lastenia Salinas H.</h2>
+    </header>
 
-<img src="./assets/img/images.jpg">
+
+    <main class="container">
+        <section id="acerca" >
+            <div class="w-75 mx-auto">
+                <figure class="d-flex justify-content-center">
+                    <img src="./assets/img/undraw_Female_avatar_efig.png" alt="Portafolio Digital" class="col-12 col-md-6 col-lg-4"  />
+                </figure>
+                <p>
+                  Ingeniero Ejecución en Computación e Informática con Magister en
+                  Educación. Con experiencia en Desarrollo de Sistemas (Educativos y de
+                  Gestión Agrícola) y experiencia docente en distintas universidades,
+                  institutos y Otec. Me caracterizo por ser proactiva, organizada y
+                  trabajar en equipo, me mueve el aprendizaje continuo lo que me lleva a
+                  estar en constante actualización, me adapto con facilidad a los cambios
+                  y disfruto enseñando e interactuando con las personas.
+                </p>
+              </div>
+        </section>
+        <div>
+            <h2 class="text-center"> Mis proyectos </h2>
+        </div>
+        <section class="row g-2" id="proyectos">
+               
+                    <div class="col-12 col-md-4">
+                         <div class="card proyecto">
+                            <img src="./assets/img/undraw_Features_overview_re_2w78.png" class="card-img-top" alt="proyecto 1">
+                                 
+                                 <a class="btn btn-success" href="https://google.cl">Proyecto 1</a>
+                         </div>   
+                   </div>
+                
+
+                
+                    <div class="col-12 col-md-4">
+                         <div class="card proyecto">
+                            <img src="./assets/img/undraw_Designer_girl_re_h54c.png" class="card-img-top" alt="proyecto 2">
+                            <a class="btn btn-success" href="https://google.cl">Proyecto 2</a>
+                        </div>   
+                   </div>
+                
 
 
 
-</body>
+        </section>
+
+    </main>
+
+
+    
+
+   
+
+    <footer>
+        <p class=" mx-auto p-3 text-center bg-dark text-white"> Portafolio digital de Lastenia Salinas H. - 2024.</p>
+    </footer>
+  </body>
 </html>
